@@ -3,7 +3,7 @@ var grades = [];
            var val = get_item_list(grades);
            //Add the appropriate id names to read scores, student_name
            document.getElementById("score").value = "";
-           document.getElementById("score").value = val;
+           document.getElementById("scores").value = val;
            document.getElementById("student_name").value = "";   
            document.getElementById("student_name").focus();
         }    
